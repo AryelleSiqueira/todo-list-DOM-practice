@@ -1,0 +1,70 @@
+body {
+	background-color: #283149;
+  text-align: left;
+	padding-left: 100px;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+	margin: 40px auto 10px;
+  text-shadow: 3px 0 #DA0463;
+}
+
+ul {
+	font-family: sans-serif;
+	font-size: 1.4rem;
+	line-height: 1.5;
+	text-align: left;
+}
+
+li {
+	color: #DBEDF3;
+}
+
+.input-text {
+	font-size: 1rem;
+	height: 1.5rem;
+	width: 13%;
+	margin: 10px 0;
+}
+
+.btn {
+	border: 0;
+	margin-left: 10px;
+  background: #DA0463;
+  background-image: -webkit-linear-gradient(top, #DA0463, #6e123b);
+  background-image: -moz-linear-gradient(top, #DA0463, #6e123b);
+  background-image: -ms-linear-gradient(top, #DA0463, #6e123b);
+  background-image: -o-linear-gradient(top, #DA0463, #6e123b);
+  background-image: linear-gradient(to bottom, #DA0463, #6e123b);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+	border-radius: 9px;
+  font-family: Arial;
+  color: #DBEDF3;
+  font-size: 0.9rem;
+  padding: 7px 15px 7px 15px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #DA0463;
+  background-image: -webkit-linear-gradient(top, #DA0463, #a84672);
+  background-image: -moz-linear-gradient(top, #DA0463, #a84672);
+  background-image: -ms-linear-gradient(top, #DA0463, #a84672);
+  background-image: -o-linear-gradient(top, #DA0463, #a84672);
+  background-image: linear-gradient(to bottom, #DA0463, #a84672);
+  text-decoration: none;
+}
+
+.trash-can-icon {
+	color: rgb(214, 67, 67);
+	font-size: 1rem;
+}
+
+.crossed-out {
+	opacity: 0.5;
+	text-decoration: line-through;
+}
